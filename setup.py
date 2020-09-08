@@ -10,5 +10,5 @@ setup(
     #
     #     'https://github.com/NMTruongGiang/kazoo_py37.git#egg=kazoo'
     # ],
-dependency_links=['https://github.com/NMTruongGiang/kazoo_py37.git#egg=kazoo']
+dependency_links=['https://github.com/NMTruongGiang/kazoo.git#egg=kazoo']
 )
