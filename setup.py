@@ -8,6 +8,6 @@ setup(
     packages = find_packages(),
     install_requires = [
         # Github Private Repository
-        'kazoo @ git+ssh://git@github.com/example_organization/ExampleRepo.git#egg=kazoo'
+        'kazoo @ git+ssh://github.com/NMTruongGiang/kazoo_py37.git#egg=kazoo'
     ]
 )
