@@ -6,8 +6,9 @@ setup(
     url = '',
     description = '',
     packages = find_packages(),
-    install_requires = [
-        # Github Private Repository
-        'https://github.com/NMTruongGiang/kazoo_py37.git#egg=kazoo'
-    ]
+    # install_requires = [
+    #
+    #     'https://github.com/NMTruongGiang/kazoo_py37.git#egg=kazoo'
+    # ],
+dependency_links=['https://github.com/NMTruongGiang/kazoo_py37.git#egg=kazoo']
 )
